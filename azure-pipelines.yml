@@ -1,8 +1,5 @@
-azure-pipelines-1.yml
-
 trigger:
 - main
-
 
 pool: testazure
 
@@ -14,5 +11,5 @@ steps:
     javaHomeOption: 'JDKVersion'
     jdkArchitectureOption: 'x64'
     publishJUnitResults: true
-    testResultsFiles: '*/surefire-reports/TEST-.xml'
+    testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'compile test'
