@@ -26,6 +26,6 @@ public class HelloController {
 
     @GetMapping("/success")
     public String success() {
-        return "success";
+        return "successfull";
     }
 }
