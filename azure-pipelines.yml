@@ -1,7 +1,7 @@
 trigger:
 - main
 
-pool: testazure
+pool: cskagent
 
 steps:
 - task: Maven@4
