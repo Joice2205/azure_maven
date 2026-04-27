@@ -1,7 +1,7 @@
 trigger:
 - main
 
-pool: cskagent
+pool: rcbagent
 
 steps:
 - task: Maven@4
